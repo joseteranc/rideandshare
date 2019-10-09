@@ -1,8 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-
+import Contactowner from "../button/contactowner";
 const Card = styled.div`
-  width: 100%;
+  display: flex;
+  width: 343px;
+  height: 165px;
   margin-bottom: 20px;
   background: #646161;
   padding: 15px;
@@ -14,6 +16,13 @@ const Card = styled.div`
 const CardImg = styled.img`
   height: 100px;
 `;
+const Paragraph = styled.p`
+  margin: 2px;
+  font-size: 12px;
+`;
+const Lil = styled.li`
+  list-style-type: none;
+`;
 
 //const CardCategory = styled.span`
 //margin-right: 4px;
@@ -23,8 +32,17 @@ const CardImg = styled.img`
 export default function ListItem() {
   return (
     <Card>
-      <CardImg />
-      hello
+      <ul>
+        <Lil>Owner:</Lil>
+        <Lil>Type:</Lil>
+        <Lil>Brand:</Lil>
+        <Lil>Engine:</Lil>
+        <Lil>Price per day:</Lil>
+      </ul>
+      <div>
+        <CardImg />
+        <Contactowner />
+      </div>
     </Card>
   );
 }
