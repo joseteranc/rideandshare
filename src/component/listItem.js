@@ -3,8 +3,7 @@ import styled from "styled-components";
 import Contactowner from "../button/contactowner";
 const Card = styled.div`
   display: flex;
-  width: 343px;
-  height: 165px;
+
   margin-bottom: 20px;
   background: #ede8e8;
   padding: 15px;

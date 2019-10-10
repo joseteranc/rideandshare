@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Logo({ className }) {
+export default function Logo() {
   return (<svg  width="234.144" height="234.149" viewBox="0 0 234.144 234.149">
   <g id="Group_96" data-name="Group 96" transform="translate(-6467.395 -379.398)">
     <g id="Group_94" data-name="Group 94" transform="translate(-3868.765 896.239)">
