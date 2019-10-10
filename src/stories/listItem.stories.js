@@ -1,8 +1,8 @@
 import React from "react";
-import ListItem from "../component/listItem";
+import ListItem from "../component/ListItem";
 
 export default {
   title: "listItem"
 };
 
-export const listItemcard = () => <ListItem />;
+export const SpecificationList = () => <ListItem />;
