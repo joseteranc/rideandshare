@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import SmallLogo from "../icons/SmallLogo";
-import Tritcher from "../icons/tritcher";
+import Tritcher from "../icons/trichter";
 
 const Header = styled.header`
   display: inline-grid;
