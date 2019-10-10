@@ -9,6 +9,7 @@ import Showoffers from "../button/showoffers";
 import Tritcher from "../icons/tritcher";
 import Contactowner from "../button/contactowner";
 import Star from "../icons/star";
+import SmallLogo from "../icons/SmallLogo";
 
 export default {
   title: "Button"
@@ -26,3 +27,4 @@ export const Showoffersbutton = () => <Showoffers />;
 export const TritcherIcon = () => <Tritcher />;
 export const Contactownerbutton = () => <Contactowner />;
 export const StarIcon = () => <Star />;
+export const SmallLogoname = () => <SmallLogo />;
