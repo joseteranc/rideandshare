@@ -9,8 +9,8 @@ const Footer = styled.div`
   grid-auto-flow: column;
   grid-gap: 12 px;
   justify-items: center;
-  margin: auto;
-  width: 300px;
+
+  width: 400px;
 
   margin-bottom: 5px;
   background: #ede8e8;
