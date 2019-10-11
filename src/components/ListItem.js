@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Contactowner from "../button/contactowner";
+import Contactowner from "./buttons/ContactOwner";
 const Card = styled.div`
   display: flex;
 

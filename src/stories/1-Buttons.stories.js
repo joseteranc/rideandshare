@@ -1,10 +1,10 @@
 import React from "react";
 import { action } from "@storybook/addon-actions";
 import { Button } from "@storybook/react/demo";
-import Showoffers from "../button/showoffers";
-import Trichter from "../icons/trichter";
-import Contactowner from "../button/contactowner";
-import Star from "../icons/star";
+import Showoffers from "../components/buttons/ShowOffers";
+import Trichter from "../icons/Trichter";
+import Contactowner from "../components/buttons/ContactOwner";
+import Star from "../icons/Star";
 
 export default {
   title: "Buttons"

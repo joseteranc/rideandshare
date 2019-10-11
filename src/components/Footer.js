@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import Moto from "../icons/moto";
-import Chat from "../icons/chat";
-import Profile from "../icons/profile";
+import Moto from "../icons/Moto";
+import Chat from "../icons/Chat";
+import Profile from "../icons/Profile";
 
 const Footer = styled.div`
   display: inline-grid;
