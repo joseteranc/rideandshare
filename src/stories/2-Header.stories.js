@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderBar from "../component/Header";
+import HeaderBar from "../components/Header";
 
 export default {
   title: "Header"

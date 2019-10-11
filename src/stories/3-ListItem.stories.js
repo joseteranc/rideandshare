@@ -1,5 +1,5 @@
 import React from "react";
-import ListItem from "../component/ListItem";
+import ListItem from "../components/ListItem";
 
 export default {
   title: "listItem"

@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../icons/logo";
+import Logo from "../icons/Logo";
 import SmallLogo from "../icons/SmallLogo";
 
 export default {

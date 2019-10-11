@@ -1,5 +1,5 @@
 import React from "react";
-import LocationField from "../component/LocationField";
+import LocationField from "../components/LocationField";
 
 export default {
   title: "LocatioField"

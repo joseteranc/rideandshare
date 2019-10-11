@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Profile({ className }) {
+export default function Profile() {
   return (
     <svg width="31.601" height="28.882" viewBox="0 0 31.601 28.882">
       <path
