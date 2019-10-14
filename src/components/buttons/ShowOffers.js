@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Chat() {
+export default function ShowMeOffers() {
   return (
     <svg width="207" height="75" viewBox="0 0 207 75">
       <g

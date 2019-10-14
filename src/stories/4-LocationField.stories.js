@@ -2,7 +2,7 @@ import React from "react";
 import LocationField from "../components/LocationField";
 
 export default {
-  title: "LocatioField"
+  title: "LocationField"
 };
 
-export const LocationFieldBar = () => <LocationField />;
+export const LocationFieldBar = () => <LocationField></LocationField>;

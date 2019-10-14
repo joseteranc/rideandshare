@@ -4,7 +4,7 @@ import Moto from "../icons/Moto";
 import Chat from "../icons/Chat";
 import Profile from "../icons/Profile";
 
-const Footer = styled.div`
+const Footer = styled.nav`
   display: inline-grid;
   grid-auto-flow: column;
   grid-gap: 12 px;
@@ -13,15 +13,21 @@ const Footer = styled.div`
   width: 400px;
 
   margin-bottom: 5px;
-  background: #ede8e8;
+  background: #f8f5f5;
   padding: 8px;
 `;
 export default function FooterBar() {
   return (
     <Footer>
-      <Moto />
-      <Chat />
-      <Profile />
+      <a href="/js/">
+        <Moto />
+      </a>
+      <a href="/js/">
+        <Chat />
+      </a>
+      <a href="/js/">
+        <Profile />
+      </a>
     </Footer>
   );
 }
