@@ -13,7 +13,7 @@ const Footer = styled.nav`
   width: 400px;
 
   margin-bottom: 5px;
-  background: #ede8e8;
+  background: #f8f5f5;
   padding: 8px;
 `;
 export default function FooterBar() {

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Profile() {
+export default function Star() {
   return (
     <svg width="28.844" height="28.096" viewBox="0 0 28.844 28.096">
       <path
