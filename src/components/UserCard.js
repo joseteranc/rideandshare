@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Contactowner from "./buttons/ContactOwner";
 
 const Card = styled.div`
   display: flex;
@@ -21,19 +20,19 @@ const Specification = styled.li`
   list-style-type: none;
 `;
 
-export default function SpecificationList() {
+export default function ProfileCard() {
   return (
     <Card>
       <ul>
-        <Specification>Owner:Owner</Specification>
-        <Specification>Type:grandTourer</Specification>
-        <Specification>Brand:BMW</Specification>
-        <Specification>Engine:1000cc</Specification>
-        <Specification>Price per day:EUR 150 </Specification>
+        <Specification>Name:Name and Lastname</Specification>
+        <Specification>Member Since: Date</Specification>
+        <Specification> User Rank: rank </Specification>
+        <Specification>frequency: times user have rent </Specification>
+        <Specification>Age: Age </Specification>
+        <Specification>Driving Licence Since: Since </Specification>
       </ul>
       <div>
         <CardImg />
-        <Contactowner />
       </div>
     </Card>
   );

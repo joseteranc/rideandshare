@@ -1,12 +1,12 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Logo from "../icons/Logo";
-
+import UserCard from "../components/UserCard";
 function Profile() {
   return (
     <>
+      <UserCard />
       <Logo />
-      <p>Here should be a profile</p>
       <Footer />
     </>
   );
