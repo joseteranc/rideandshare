@@ -13,7 +13,6 @@ export default function StartDateField() {
         type="date"
         id="start"
         name="trip-start"
-        value="yyyy-mm-dd"
         min="2019-10-14"
         max="2020-12-31"
       />

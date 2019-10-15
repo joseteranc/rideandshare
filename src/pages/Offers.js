@@ -4,6 +4,7 @@ import LocationFieldBar from "../components/LocationField";
 import ReturnDate from "../components/ReturnDate";
 import StartDate from "../components/StartDate";
 import Logo from "../icons/Logo";
+import ShowMeOffers from "../components/buttons/ShowOffers";
 
 function Offers() {
   return (
@@ -12,6 +13,7 @@ function Offers() {
       <LocationFieldBar />
       <StartDate />
       <ReturnDate />
+      <ShowMeOffers />
       <Footer />
     </>
   );

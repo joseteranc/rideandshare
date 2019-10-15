@@ -1,15 +1,9 @@
 import React from "react";
+import { Link, useRouteMatch } from "react-router-dom";
 import styled from "styled-components";
 import Chat from "../icons/ChatIcon";
-import Profile from "../icons/ProfileIcon";
 import Offers from "../icons/OffersIcon";
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Link,
-  useRouteMatch
-} from "react-router-dom";
+import Profile from "../icons/ProfileIcon";
 
 const Footer = styled.nav`
   display: inline-grid;
