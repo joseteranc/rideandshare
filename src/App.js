@@ -4,7 +4,6 @@ import Footer from "./components/Footer";
 import styled from "styled-components";
 import StartDate from "./components/StartDate";
 import ReturnDate from "./components/ReturnDate";
-import LocationField from "./components/LocationField";
 import LocationFieldBar from "./components/LocationField";
 const Main = styled.main`
   padding: 10px;
