@@ -12,7 +12,7 @@ export default function StartDateField() {
       <input
         type="date"
         id="start"
-        name="trip-start"
+        name="trip-end"
         value="yyyy-mm-dd"
         min="2019-10-14"
         max="2020-12-31"
