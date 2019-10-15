@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
       <Logo />
-      <p>Home page </p>
+
       <FooterBar />
     </>
   );
