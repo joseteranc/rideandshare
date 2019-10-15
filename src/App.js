@@ -1,10 +1,10 @@
 import React from "react";
-import Logo from "./icons/Logo";
-import Footer from "./components/Footer";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import styled from "styled-components";
-import StartDate from "./components/StartDate";
-import ReturnDate from "./components/ReturnDate";
-import LocationFieldBar from "./components/LocationField";
+import Chat from "./pages/Chat";
+import Offers from "./pages/Offers";
+import Profile from "./pages/Profile";
+import Home from "./pages/Home";
 const Main = styled.main`
   padding: 10px;
   background-color: #f8f5f5;
@@ -20,11 +20,14 @@ const Main = styled.main`
 function App() {
   return (
     <Main>
-      <Logo />
-      <LocationFieldBar />
-      <StartDate />
-      <ReturnDate />
-      <Footer />
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/offers" component={Offers} />
+          <Route exact path="/chat" component={Chat} />
+          <Route exact path="/profile" component={Profile} />
+        </Switch>
+      </Router>
     </Main>
   );
 }

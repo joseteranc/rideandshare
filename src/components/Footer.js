@@ -1,8 +1,15 @@
 import React from "react";
 import styled from "styled-components";
-import Moto from "../icons/Moto";
-import Chat from "../icons/Chat";
-import Profile from "../icons/Profile";
+import Chat from "../icons/ChatIcon";
+import Profile from "../icons/ProfileIcon";
+import Offers from "../icons/OffersIcon";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Link,
+  useRouteMatch
+} from "react-router-dom";
 
 const Footer = styled.nav`
   display: inline-grid;
@@ -17,17 +24,18 @@ const Footer = styled.nav`
   padding: 8px;
 `;
 export default function FooterBar() {
+  let { url } = useRouteMatch();
   return (
     <Footer>
-      <a href="/js/">
-        <Moto />
-      </a>
-      <a href="/js/">
+      <Link to="offers">
+        <Offers />
+      </Link>
+      <Link to="chat">
         <Chat />
-      </a>
-      <a href="/js/">
+      </Link>
+      <Link to="profile">
         <Profile />
-      </a>
+      </Link>
     </Footer>
   );
 }

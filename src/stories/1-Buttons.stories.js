@@ -4,7 +4,7 @@ import { Button } from "@storybook/react/demo";
 import Showoffers from "../components/buttons/ShowOffers";
 import Trichter from "../icons/Trichter";
 import Contactowner from "../components/buttons/ContactOwner";
-import ButtonSizes from "../components/buttons/ButtonSizes";
+
 import Star from "../icons/Star";
 
 export default {
