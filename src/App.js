@@ -1,4 +1,3 @@
-
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import styled from "styled-components";
@@ -7,14 +6,13 @@ import Offers from "./pages/Offers";
 import Profile from "./pages/Profile";
 import Home from "./pages/Home";
 const Main = styled.main`
-  padding: 10px;
   background-color: #f8f5f5;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   overflow: auto;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 `;
 

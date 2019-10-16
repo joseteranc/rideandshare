@@ -1,7 +1,8 @@
 import React from "react";
 import Footer from "../components/Footer";
-import Logo from "../icons/Logo";
 import UserCard from "../components/UserCard";
+import Logo from "../icons/Logo";
+
 function Profile() {
   return (
     <>
