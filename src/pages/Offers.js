@@ -1,22 +1,16 @@
 import React from "react";
-import Footer from "../components/Footer";
-import LocationFieldBar from "../components/LocationField";
-import ReturnDate from "../components/ReturnDate";
-import StartDate from "../components/StartDate";
-import Logo from "../icons/Logo";
-import ShowMeOffers from "../components/buttons/ShowOffers";
+import FooterBar from "../components/Footer";
+import Header from "../components/Header";
+import ListItem from "../components/ListItem";
 
-function Offers() {
+function Home() {
   return (
     <>
-      <Logo />
-      <LocationFieldBar />
-      <StartDate />
-      <ReturnDate />
-      <ShowMeOffers />
-      <Footer />
+      <Header />
+      <ListItem />
+      <FooterBar />
     </>
   );
 }
 
-export default Offers;
+export default Home;

@@ -1,5 +1,5 @@
 import React from "react";
-import UserCard from "../components/UserCard";
+import UserCard from "../components/ProfileCard";
 
 export default {
   title: "UserCard"

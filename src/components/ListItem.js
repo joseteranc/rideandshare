@@ -21,12 +21,12 @@ const Specification = styled.li`
   list-style-type: none;
 `;
 
-export default function SpecificationList() {
+export default function ListItem({ offer }) {
   return (
     <Card>
       <ul>
         <Specification>Owner:Owner</Specification>
-        <Specification>Type:grandTourer</Specification>
+        <Specification>City:Hamburg</Specification>
         <Specification>Brand:BMW</Specification>
         <Specification>Engine:1000cc</Specification>
         <Specification>Price per day:EUR 150 </Specification>
