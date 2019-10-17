@@ -21,7 +21,7 @@ export default function Footer() {
   let { url } = useRouteMatch();
   return (
     <FooterBar>
-      <Link to="offers">
+      <Link to="selection">
         <Offers />
       </Link>
       <Link to="chat">

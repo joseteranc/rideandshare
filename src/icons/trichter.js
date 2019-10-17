@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Chat() {
+export default function Trichter() {
   return (
     <svg width="28.568" height="21.516" viewBox="0 0 28.568 21.516">
       <path

@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 
-const ReturnDate = styled.label`
+const ReturnDateField = styled.label`
   background-color: transparent;
 `;
 
-export default function ReturnDateField() {
+export default function ReturnDate() {
   return (
-    <ReturnDate for="start">
+    <ReturnDateField for="start">
       Retrun Date:
       <input
         type="date"
@@ -16,6 +16,6 @@ export default function ReturnDateField() {
         min="2019-10-14"
         max="2020-12-31"
       />
-    </ReturnDate>
+    </ReturnDateField>
   );
 }

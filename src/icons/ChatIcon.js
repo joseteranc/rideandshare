@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Chat() {
+export default function ChatIcon() {
   return (
     <svg width="35.073" height="27.949" viewBox="0 0 35.073 27.949">
       <path
