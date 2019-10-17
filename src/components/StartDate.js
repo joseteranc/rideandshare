@@ -7,14 +7,14 @@ const StartDateField = styled.label`
 
 export default function StartDate() {
   return (
-    <StartDateField for="start">
+    <StartDateField>
       Start Date:
       <input
         type="date"
         id="start"
         name="trip-start"
         min="2019-10-14"
-        max="2020-12-31"
+        max="2021-12-31"
       />
     </StartDateField>
   );

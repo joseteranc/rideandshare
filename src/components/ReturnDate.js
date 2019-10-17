@@ -7,13 +7,13 @@ const ReturnDateField = styled.label`
 
 export default function ReturnDate() {
   return (
-    <ReturnDateField for="start">
+    <ReturnDateField>
       Retrun Date:
       <input
         type="date"
         id="start"
         name="trip-end"
-        min="2019-10-14"
+        min="2019-10-17"
         max="2020-12-31"
       />
     </ReturnDateField>

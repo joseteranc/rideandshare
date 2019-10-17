@@ -24,7 +24,7 @@ export default function Footer() {
       <Link to="selection">
         <Offers />
       </Link>
-      <Link to="chat">
+      <Link to="offers">
         <Chat />
       </Link>
       <Link to="profile">
