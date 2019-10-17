@@ -14,7 +14,7 @@ const Main = styled.main`
   align-items: center;
   justify-content: space-between;
   overflow: auto;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 `;
 
