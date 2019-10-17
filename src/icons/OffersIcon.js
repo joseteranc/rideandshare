@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Offers() {
+export default function OffersIcon() {
   return (
     <svg width="48.489" height="28.882" viewBox="0 0 48.489 28.882">
       <path

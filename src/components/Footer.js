@@ -5,7 +5,7 @@ import Chat from "../icons/ChatIcon";
 import Offers from "../icons/OffersIcon";
 import Profile from "../icons/ProfileIcon";
 
-const Footer = styled.nav`
+const FooterBar = styled.nav`
   display: inline-grid;
   grid-auto-flow: column;
   grid-gap: 12 px;
@@ -17,19 +17,19 @@ const Footer = styled.nav`
   background: #f8f5f5;
   padding: 8px;
 `;
-export default function FooterBar() {
+export default function Footer() {
   let { url } = useRouteMatch();
   return (
-    <Footer>
-      <Link to="offers">
+    <FooterBar>
+      <Link to="selection">
         <Offers />
       </Link>
-      <Link to="chat">
+      <Link to="offers">
         <Chat />
       </Link>
       <Link to="profile">
         <Profile />
       </Link>
-    </Footer>
+    </FooterBar>
   );
 }

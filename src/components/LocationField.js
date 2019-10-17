@@ -3,7 +3,7 @@ import styled from "styled-components";
 // In order to create a component, icon, button do not forget to import React from "react"
 // In order to use  styled-component, do not forget to import styled from "styled-components"
 
-const LocationField = styled.select`
+const LocationFieldBar = styled.select`
   background-color: transparent;
 `;
 // To use styled-components is important to put the item after the  .
@@ -18,15 +18,15 @@ const Option = styled.option`
 `;
 // in order to export the function is iportant to use export default (fun ction name)(){return()}
 // Every component is writen with PascalCase
-export default function LocationFieldBar() {
+export default function LocationField() {
   return (
     <div>
       <p>Where do you want to pick it up and return:</p>
-      <LocationField>
+      <LocationFieldBar>
         <Option>Berlin</Option>
         <Option>Hamburg</Option>
         <Option>Cologne</Option>
-      </LocationField>
+      </LocationFieldBar>
     </div>
   );
 }

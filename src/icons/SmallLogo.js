@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Logo() {
+export default function SmallLogo() {
   return (<svg  width="30" height="30" viewBox="0 0 234.144 234.149">
   <g id="Group_96" data-name="Group 96" transform="translate(-6467.395 -379.398)">
     <g id="Group_94" data-name="Group 94" transform="translate(-3868.765 896.239)">
@@ -44,7 +44,7 @@ export default function Logo() {
           <path id="Path_472" data-name="Path 472" d="M360.608,165.709a1.708,1.708,0,1,1,2.281.792A1.7,1.7,0,0,1,360.608,165.709Z" transform="translate(-169.568 -82.156)" fill="#191b1b"/>
           <path id="Path_473" data-name="Path 473" d="M363.191,182.8a1.708,1.708,0,1,1,2.184,1.026A1.709,1.709,0,0,1,363.191,182.8Z" transform="translate(-170.602 -88.878)" fill="#191b1b"/>
         </g>
-        <text id="Ride_Share" data-name="Ride &amp; Share" transform="translate(57.605 163.602)" fill="#f8f7f7" font-size="22" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Ride &amp; Share</tspan></text>
+        <text id="Ride_Share" data-name="Ride &amp; Share" transform="translate(57.605 163.602)" fill="#f8f7f7" fontSize="22" fontFamily="Roboto-Regular, Roboto"><tspan x="0" y="0">Ride &amp; Share</tspan></text>
       </g>
       <g id="Group_69" data-name="Group 69" transform="translate(10376.916 -458.895)">
         <path id="Path_290" data-name="Path 290" d="M1092.2,117.5h6.879a1.1,1.1,0,0,1,.6,2.019l-4.859,3.282Z" transform="translate(-982.945 -112.67)" fill="#777"/>

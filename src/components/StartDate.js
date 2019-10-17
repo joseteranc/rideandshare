@@ -1,21 +1,21 @@
 import React from "react";
 import styled from "styled-components";
 
-const StartDate = styled.label`
+const StartDateField = styled.label`
   background-color: transparent;
 `;
 
-export default function StartDateField() {
+export default function StartDate() {
   return (
-    <StartDate for="start">
+    <StartDateField>
       Start Date:
       <input
         type="date"
         id="start"
         name="trip-start"
         min="2019-10-14"
-        max="2020-12-31"
+        max="2021-12-31"
       />
-    </StartDate>
+    </StartDateField>
   );
 }
