@@ -21,4 +21,3 @@ export const Showoffersbutton = () => (
 export const TrichterIcon = () => <Trichter />;
 export const Contactownerbutton = () => <Contactowner />;
 export const StarIcon = () => <Star />;
-export const ButtonSizes1 = () => <Button />;

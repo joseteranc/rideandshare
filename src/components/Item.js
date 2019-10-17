@@ -6,22 +6,16 @@ import ListItem from "../components/ListItem";
 // const Item = styled.li`
 //   list-style-type: none;
 // `;
-const Items = styled.div`
+const ItemSelection = styled.div`
   color: blue;
 `;
 
-export default function ItemSelection() {
+export default function Item() {
   return (
-    <Items>
+    <ItemSelection>
       {offers.map(offer => {
         return <ListItem offer={offer} />;
       })}
-      {/* {}
-      <Item>Owner:Owner</Item>
-      <Item>City:Hamburg</Item>
-      <Item>Brand:BMW</Item>
-      <Item>Engine:1000cc</Item>
-      <Item>Price per day:EUR 150 </Item> */}
-    </Items>
+    </ItemSelection>
   );
 }
