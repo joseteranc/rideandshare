@@ -6,6 +6,7 @@ import Selection from "./pages/Selection";
 import Profile from "./pages/Profile";
 import Home from "./pages/Home";
 import Offers from "./pages/Offers";
+
 const Main = styled.main`
   background-color: #f8f5f5;
   display: flex;

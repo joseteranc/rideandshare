@@ -1,16 +1,21 @@
 import React from "react";
 import FooterBar from "../components/Footer";
 import Header from "../components/Header";
-import ListItem from "../components/ListItem";
+// import ListItem from "../components/ListItem";
+import ItemSelection from "../components/Item";
 
-function Home() {
+function Offers() {
   return (
     <>
-      <Header />
-      <ListItem />
-      <FooterBar />
+      <>
+        <Header />
+
+        <ItemSelection />
+
+        <FooterBar />
+      </>
     </>
   );
 }
 
-export default Home;
+export default Offers;
