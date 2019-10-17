@@ -18,7 +18,9 @@ const Option = styled.option`
 `;
 // in order to export the function is iportant to use export default (fun ction name)(){return()}
 // Every component is writen with PascalCase
+
 export default function LocationField() {
+  //filtr function
   return (
     <div>
       <p>Where do you want to pick it up and return:</p>
