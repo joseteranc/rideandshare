@@ -1,19 +1,20 @@
 import React from "react";
-import ShowMeOffers from "../components/buttons/ShowOffers";
-import Footer from "../components/Footer";
-import LocationFieldBar from "../components/LocationField";
+import ShowOffers from "../components/buttons/ShowOffers";
 import ReturnDate from "../components/ReturnDate";
 import StartDate from "../components/StartDate";
 import Logo from "../icons/Logo";
+import Offers from "../components/Offers";
+import Footer from "../components/Footer";
 
 function Selection() {
+  const [city, setCity] = React.useState("");
   return (
     <>
       <Logo />
-      <LocationFieldBar />
+      <Offers onChange={setCity} value={city} />
       <StartDate />
       <ReturnDate />
-      <ShowMeOffers />
+      <ShowOffers city={city} />
       <Footer />
     </>
   );

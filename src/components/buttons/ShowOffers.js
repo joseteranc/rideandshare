@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const ShowOffersButton = styled.button`
   background-color: #f43c10;
@@ -13,6 +14,10 @@ const ShowOffersButton = styled.button`
   margin: 4px 2px;
 `;
 
-export default function ShowOffers() {
-  return <ShowOffersButton> Show Offers </ShowOffersButton>;
+export default function ShowOffers({ city }) {
+  return (
+    <Link to={`/offers?city=${city}`}>
+      <ShowOffersButton> Show Offers </ShowOffersButton>
+    </Link>
+  );
 }

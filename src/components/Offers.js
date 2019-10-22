@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Link, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, useLocation } from "react-router-dom";
 import styled from "styled-components";
 
 const OfferSection = styled.select`
@@ -14,20 +14,19 @@ const OfferSection = styled.select`
 function useQuery() {
   return new URLSearchParams(useLocation().search);
 }
-function Offers(onChange, filter, selectedValue) {
+function Offers({ onChange, value }) {
   let query = useQuery();
   return (
     <Router>
       <OfferSection
         onChange={event => {
-          onChange(filter.city, event.target.value);
+          onChange(event.target.value);
         }}
-        value={selectedValue}
+        value={value}
       >
         <option value="">SelectField</option>
-        <Link to="/offers?city=berlin">Berlin</Link>;
-        <Link to="/offers?city=hamburg">Hamburg</Link>;
-        <Link to="/offers?city=cologne">Cologne</Link>;
+        <option>Berlin</option>;<option>Hamburg</option>;
+        <option>Cologne</option>;
         <Child city={query.get("city")} />
       </OfferSection>
     </Router>
