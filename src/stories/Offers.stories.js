@@ -1,8 +1,8 @@
 import React from "react";
-import OfferSection from "../components/Offer";
+import Offers from "../components/Offers";
 
 export default {
   title: "offers"
 };
 
-export const Offers = () => <OfferSection />;
+export const Offer = () => <Offers />;

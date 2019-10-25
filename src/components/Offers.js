@@ -24,7 +24,7 @@ function Offers({ onChange, value }) {
         }}
         value={value}
       >
-        <option value="">SelectField</option>
+        <option value="">Select City</option>
         <option>Berlin</option>;<option>Hamburg</option>;
         <option>Cologne</option>;
         <Child city={query.get("city")} />
