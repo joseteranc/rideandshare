@@ -2,22 +2,22 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-const ShowOffersButton = styled.button`
+const OffererPageButton = styled.button`
   background-color: #f43c10;
-  border-radius: 5px;
+  border-radius: 10px;
   color: white;
-  padding: 4px 8px;
+  padding: 8px 12px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
+  font-size: 20px;
   margin: 4px 2px;
 `;
 
-export default function ShowOffers({ city }) {
+export default function OffererPage() {
   return (
-    <Link to={`/offers?city=${city}`}>
-      <ShowOffersButton> Show Offers </ShowOffersButton>
+    <Link to={`/offerer`}>
+      <OffererPageButton> Offerer </OffererPageButton>
     </Link>
   );
 }

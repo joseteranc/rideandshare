@@ -8,7 +8,7 @@ const ReturnDateField = styled.label`
 export default function ReturnDate() {
   return (
     <ReturnDateField>
-      Retrun Date:
+      Return Date:
       <input
         type="date"
         id="start"

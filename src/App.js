@@ -5,7 +5,8 @@ import Chat from "./pages/Chat";
 import Selection from "./pages/Selection";
 import Profile from "./pages/Profile";
 import Home from "./pages/Home";
-import Offers from "./pages/Offers";
+import OffersPage from "./pages/OffersPage";
+import Offerer from "./pages/Offerer";
 
 const Main = styled.main`
   background-color: #f8f5f5;
@@ -23,11 +24,12 @@ function App() {
     <Main>
       <Router>
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/offers" component={Offers} />
+          <Route exact path="/home" component={Home} />
+          <Route exact path="/offers" component={OffersPage} />
           <Route exact path="/chat" component={Chat} />
           <Route exact path="/profile" component={Profile} />
           <Route exact path="/selection" component={Selection} />
+          <Route exact path="/offerer" component={Offerer} />
         </Switch>
       </Router>
     </Main>
