@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const ContactButton = styled.button`
+const ShowMoreButton = styled.button`
   background-color: #f43c10;
   border-radius: 5px;
   color: white;
@@ -13,6 +13,6 @@ const ContactButton = styled.button`
   margin: 4px 2px;
 `;
 
-export default function ContactOwner() {
-  return <ContactButton>Contact Owner</ContactButton>;
+export default function ShowMore() {
+  return <ShowMoreButton>Show More</ShowMoreButton>;
 }

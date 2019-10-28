@@ -18,7 +18,7 @@ function SearchBar() {
   return (
     <div>
       <div>
-        <h2>Cities</h2>
+        <h2>Where do you want to pick it up and return:</h2>
         <ul>
           <li>
             <Link to="/offers?city=berlin">Berlin</Link>

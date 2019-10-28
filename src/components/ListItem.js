@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import ContactOwner from "../components/buttons/ContactOwner";
+import ShowMore from "./buttons/ShowMore";
 const Card = styled.div`
   display: flex;
   flex-direction: row;
@@ -44,7 +44,7 @@ export default function ListItem({ offer }) {
       <Division>
         <CardImg src={offer.picture} alt="" />
 
-        <ContactOwner />
+        <ShowMore />
       </Division>
     </Card>
   );

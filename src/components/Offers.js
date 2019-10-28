@@ -3,13 +3,13 @@ import { BrowserRouter as Router, useLocation } from "react-router-dom";
 import styled from "styled-components";
 
 const OfferSection = styled.select`
-  width: 65%;
+  width: 80%;
   height: 25px;
-  background: #f8f5f5;
+  background: transparent;
   flex-wrap: wrap;
   padding-top: 2px;
-  border-style: Solid;
-  border-width: 5px;
+  border-style: solid;
+  border-width: 5px 5px 5px 5px;
 `;
 function useQuery() {
   return new URLSearchParams(useLocation().search);
@@ -24,7 +24,7 @@ function Offers({ onChange, value }) {
         }}
         value={value}
       >
-        <option value="">Select City</option>
+        <option value="">Where do you want to pick it up and return:</option>
         <option>Berlin</option>;<option>Hamburg</option>;
         <option>Cologne</option>;
         <Child city={query.get("city")} />
