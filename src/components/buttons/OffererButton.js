@@ -12,6 +12,7 @@ const OffererPageButton = styled.button`
   display: inline-block;
   font-size: 20px;
   margin: 4px 2px;
+  font-family: "Rye", cursive;
 `;
 
 export default function OffererPage() {
