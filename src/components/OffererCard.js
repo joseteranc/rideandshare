@@ -9,6 +9,7 @@ const Card = styled.div`
   color: black;
   border-radius: 15px;
   box-shadow: 0 5px 10px grey;
+  font-family: "Roboto", cursive;
 `;
 
 const CardImg = styled.img`

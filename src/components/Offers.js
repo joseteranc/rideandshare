@@ -10,6 +10,7 @@ const OfferSection = styled.select`
   padding-top: 2px;
   border-style: solid;
   border-width: 5px 5px 5px 5px;
+  font-family: "Roboto", cursive;
 `;
 function useQuery() {
   return new URLSearchParams(useLocation().search);

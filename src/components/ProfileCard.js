@@ -20,6 +20,7 @@ const CardImg = styled.img`
 
 const Specification = styled.li`
   list-style-type: none;
+  font-family: "Roboto", cursive;
 `;
 
 export default function ProfileCard() {

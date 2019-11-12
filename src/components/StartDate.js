@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const StartDateField = styled.label`
   background-color: transparent;
+  font-family: "Roboto", cursive;
 `;
 
 export default function StartDate() {

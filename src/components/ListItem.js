@@ -11,6 +11,7 @@ const Card = styled.div`
   border-radius: 15px;
   box-shadow: 0 5px 10px grey;
   justify-content: space-around;
+  font-family: "Roboto", cursive;
 `;
 const Item = styled.div`
   color: black;
