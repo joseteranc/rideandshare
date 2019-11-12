@@ -19,7 +19,7 @@ const FooterBar = styled.nav`
   padding: 8px;
 `;
 export default function Footer() {
-  let { url } = useRouteMatch(); // better use https://reacttraining.com/react-router/web/api/Hooks/uselocation
+  let { url } = useRouteMatch();
   return (
     <FooterBar>
       <Link to="home">
