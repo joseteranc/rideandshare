@@ -11,6 +11,7 @@ const ShowMoreButton = styled.button`
   display: inline-block;
   font-size: 12px;
   margin: 4px 2px;
+  font-family: "Rye", cursive;
 `;
 
 export default function ShowMore() {

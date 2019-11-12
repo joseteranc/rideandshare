@@ -12,6 +12,7 @@ const ShowOffersButton = styled.button`
   display: inline-block;
   font-size: 14px;
   margin: 4px 2px;
+  font-family: "Rye", cursive;
 `;
 
 export default function ShowOffers({ city }) {
