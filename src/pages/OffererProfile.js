@@ -1,13 +1,17 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Logo from "../icons/Logo";
-import OffererCard from "../components/OffererCard";
+import ProfileButton from "../components/buttons/ProfileButton";
+import MyRentalsButton from "../components/buttons/MyRentalsButton";
+import NotificationsButton from "../components/buttons/NotificationsButton";
 
 function Offerer() {
   return (
     <>
-      <OffererCard />
       <Logo />
+      <ProfileButton />
+      <MyRentalsButton />
+      <NotificationsButton />
       <Footer />
     </>
   );

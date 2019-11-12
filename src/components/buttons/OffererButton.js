@@ -17,7 +17,7 @@ const OffererPageButton = styled.button`
 
 export default function OffererPage() {
   return (
-    <Link to={`/offerer`}>
+    <Link to={`/offererprofile`}>
       <OffererPageButton> Offerer </OffererPageButton>
     </Link>
   );

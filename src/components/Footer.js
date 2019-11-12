@@ -28,10 +28,10 @@ export default function Footer() {
       <Link to="selection">
         <Offers />
       </Link>
-      <Link to="chat">
+      <Link to="usernotifications">
         <Chat />
       </Link>
-      <Link to="profile">
+      <Link to="userprofile">
         <Profile />
       </Link>
     </FooterBar>
